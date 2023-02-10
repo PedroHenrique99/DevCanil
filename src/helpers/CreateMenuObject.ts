@@ -1,5 +1,5 @@
 type MenuOpitions = '' | 'all' | 'dog' | 'cat' | 'fish'
-export const CreatMenuObject = (activeMenu: MenuOpitions) => {
+export const createMenuObject = (activeMenu: MenuOpitions) => {
     let returnObject = {
         all: false,
         dog: false,
